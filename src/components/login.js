@@ -46,7 +46,6 @@ const style = {
 }
 
 const Login = (props) => {
-    console.log(props);
     const [user, setUser] = useState("");
     const [pass, setPass] = useState("");
     const [loading, setLoading] = useState(false);
